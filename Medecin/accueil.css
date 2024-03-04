@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#logooo{
+    display: flex;
+}
+
+/* Style de base pour le corps */
+body {
+    background-color: white; /* Couleur de fond */
+    font-family: Arial, sans-serif; /* Police de caractères */
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Style pour le header */
+header {
+    background-color: rgb(113, 165, 243);   
+    color: white; /* Couleur du texte */
+    padding: 20px; /* Espacement intérieur */
+    text-align: justify; /* Alignement du texte au centre */
+    font-size: 25px;
+    flex-direction: left;
+}
+
+/* Style pour les liens dans le header */
+header a {
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* Supprimer les soulignements */
+}
+
+/* Style pour les liens dans le header au survol */
+header a:hover {
+    text-decoration: underline; /* Souligner au survol */
+}
+
+
+
+/* Centrer le contenu */
+center {
+    margin-top: 50px; /* Marge en haut */
+}
+
+/* Style pour le titre principal */
+h1 {
+    color: #333; /* Couleur du texte */
+}
+
+/* Supprimer les soulignements des liens */
+a {
+    text-decoration: none; 
+}
+
+/* Style pour les images */
+img {
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border-radius: 200px; /* Coins arrondis */
+}
+
+/* Effet de zoom au survol des images */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Style pour le lien actif */
+a.active img {
+    border: 2px solid #007bff; /* Bordure bleue pour le lien actif */
+}
+
+/* Style pour les paragraphes sur les liens */
+a.p {
+    display: none; /* Par défaut, cache les paragraphes */
+    position: absolute; /* Position absolue pour les placer sur les images */
+    top: 50%; /* Décale le paragraphe vers le bas de 50% de la hauteur de son conteneur */
+    left: 50%; /* Décale le paragraphe vers la droite de 50% de la largeur de son conteneur */
+    transform: translate(-50%, -50%); /* Centre le paragraphe */
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond semi-transparente */
+    padding: 10px; /* Ajoute un peu d'espace autour du texte */
+}
+
+/* Lorsque le survol se produit, affiche le paragraphe */
+a:hover p {
+    display: block;
+}
+
+
+footer {
+    background-color: rgb(113, 165, 243);   
+    color: #fff; /* Couleur du texte */
+    padding: 20px; /* Espacement intérieur */
+    text-align: center; /* Alignement du texte au centre */
+    position: relative; /* Position fixe en bas de la fenêtre */
+    bottom: 0; /* Distance depuis le bas */
+    width: 100%; /* Largeur pleine */
+}
+
+/* Style pour le contenu du footer */
+.footer-content {
+    margin-bottom: 10px; /* Marge inférieure */
+}
+
+/* Style pour les coordonnées du footer */
+.footer-coordinates {
+    margin-top: 10px; /* Marge supérieure */
+}
+
+/* Style pour les icônes dans le footer */
+.icons {
+    margin-top: 10px; /* Marge supérieure */
+}
+
+/* Style pour les liens dans le footer */
+footer a {
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* Supprimer les soulignements */
+}
+
+/* Style pour les liens dans le footer au survol */
+footer a:hover {
+    text-decoration: underline; /* Souligner au survol */
+}
